@@ -1,5 +1,5 @@
 import React from 'react'
-import {Cards, Footer,HeroSection} from '../index'
+import {Cards, HeroSection} from '../index'
 import '../../App.css'
 
 
@@ -8,7 +8,7 @@ function Home() {
     <div className='trvl__home .home'> 
       <HeroSection/>
       <Cards/>
-      <Footer/>
+      
     </div>
   )
 }

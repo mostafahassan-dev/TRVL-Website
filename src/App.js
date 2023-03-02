@@ -1,4 +1,4 @@
-import { Navbar}from './components/'
+import { Footer, Navbar}from './components/'
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import { About, Home, Services, SignUp } from './components/pages';
@@ -16,7 +16,7 @@ function App() {
         <Route path='/signup' element= {<SignUp/>} />
       </Routes>
 
-      
+      <Footer/>
     </>
       
     
