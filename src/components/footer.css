@@ -19,7 +19,8 @@
     
 }
 
-.trvl__footer-container h1{
+
+.trvl__footer-container_heading h1{
     font-size: 24px;
     font-weight: 900;
     letter-spacing: 1px;
@@ -28,10 +29,11 @@
     text-align: center;
 }
 
-.trvl__footer-container > p{
+.trvl__footer-container_heading p{
     margin-bottom: 1rem;
     letter-spacing: 1px;
     word-spacing: 1px;
+    text-align: center;
     
 }
 
@@ -127,11 +129,14 @@
 
 
 @media screen and (max-width:590px) {
-    .trvl__footer-container h1{
+    .trvl__footer-container_heading{
+        width: 90%;
+    }
+    .trvl__footer-container_heading h1{
         font-size: 14px;
     }   
 
-    .trvl__footer-container > p{
+    .trvl__footer-container_heading p{
         font-size: 12px;
     }   
 

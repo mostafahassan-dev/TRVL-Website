@@ -9,9 +9,10 @@ function Footer() {
     <div className='trvl__footer'>
 
       <div className="trvl__footer-container">
-
-        <h1> Join the Adventure newsletter to receive our best vacation deals</h1>
-        <p> You can unsubscribe at any time.</p>
+        <div className="trvl__footer-container_heading">
+          <h1> Join the Adventure newsletter to receive our best vacation deals</h1>
+          <p> You can unsubscribe at any time.</p>
+        </div>
 
         <div className="trvl__footer-container_input">
           <input placeholder='Your Email' type='email'/>
