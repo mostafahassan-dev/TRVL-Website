@@ -1,0 +1,180 @@
+.trvl__footer{
+    color: #fff;
+    padding: 4rem 0 1.5rem 0;
+    background: #242424;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    
+
+}
+
+.trvl__footer-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.trvl__footer-container h1{
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.trvl__footer-container > p{
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    
+}
+
+.trvl__footer-container_input{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+.trvl__footer-container_input input{
+    margin-right: 10px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 250px;
+    height: 41px;
+
+}
+
+.trvl__footer-container_links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-bottom: 4rem;
+    width: 650px;
+    
+    
+}
+
+.trvl__footer-container_links-div{
+    min-width: 115px;
+}
+
+.trvl__footer-container_links-div h4{
+    font-size: 18px;
+    line-height: 16px;
+    margin-bottom: 1rem;
+}
+
+.trvl__footer-container_links-div p{
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    
+}
+
+.trvl__footer-container_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.trvl__footer-container_icons-logo{
+    font-weight: bold;
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+.trvl__footer-container_icons-copyright{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.trvl__footer-container_icons-icons{
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+
+}
+
+.trvl__footer-container_icons-icons i{
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .trvl__footer-container h1{
+        font-size: 20px;
+    }   
+    
+}
+
+
+@media screen and (max-width:590px) {
+    .trvl__footer-container h1{
+        font-size: 14px;
+    }   
+
+    .trvl__footer-container > p{
+        font-size: 12px;
+    }   
+
+    .trvl__footer-container_input input{
+        height: unset
+    }
+    .trvl__footer-container_input button {
+        font-size: 14px;
+    }
+
+    .trvl__footer-container_links{
+        max-width: 320px;
+    }
+
+    .trvl__footer-container_links-div{
+        margin: 1rem;
+    }
+
+    .trvl__footer-container_icons-logo{
+        font-size: 1.3rem;
+    }
+
+    .trvl__footer-container_icons-icons{
+        font-size: 16px;
+    }
+        
+}
+
+@media screen and (max-width:380px) {
+    .trvl__footer-container{
+        width:  90%;
+        margin: auto;
+    }
+
+    .trvl__footer-container_input input{
+        height: 35px;
+    }
+    .trvl__footer-container_input button {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .trvl__footer-container_links{
+        flex-direction: column;
+    }
+}

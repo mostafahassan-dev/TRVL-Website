@@ -1,0 +1,69 @@
+.trvl__heroSection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); 
+}
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.trvl__heroSection-btns{
+    margin-top: 2rem;
+}
+
+.trvl__heroSection-btns .btn {
+    margin: 1rem 0.4rem;
+    width: 230px;
+}
+
+.trvl__heroSection h1{
+    font-size: 70px;
+    color: #fff;
+    margin-top: -100px;
+}
+
+.trvl__heroSection p{
+    font-size: 32px;
+    margin: 1rem;
+    color: #fff;
+}
+
+@media screen and (max-width: 550px) {
+    .trvl__heroSection h1{
+        font-size: 34px;
+    }
+    .trvl__heroSection p{
+        font-size: 20px;
+    }
+    .trvl__heroSection-btns{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    .trvl__heroSection h1{
+        font-size: 28px;
+    }
+    .trvl__heroSection p{
+        font-size: 18px;
+    }
+
+    .trvl__heroSection-btns .btn {
+        font-size: 10px;
+        max-width: 110px;
+        padding: 0.5rem 0 ;
+        margin-top: 0.2rem;
+    }
+   
+}
