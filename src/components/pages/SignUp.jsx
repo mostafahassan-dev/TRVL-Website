@@ -3,7 +3,7 @@ import '../../App.css'
 function SignUp() {
   return (
     <>
-      <h1 className='sign-up'>LIKE & SUBSCRIBE</h1>;
+      <h1 className='sign-up'>LIKE & SUBSCRIBE</h1>
     </>
   )
 }
