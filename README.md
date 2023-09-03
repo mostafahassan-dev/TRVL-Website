@@ -1,6 +1,6 @@
 # Simple React Project
 
-## <a href ="https://trvl-mz7.vercel.app/">Demo </a>
+## <a href ="https://trvl-dev.vercel.app">Demo </a>
 
 
 
